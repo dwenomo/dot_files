@@ -1,4 +1,5 @@
- ;; 見た目			     	
+;; TODO 見た目をまとめて置いているが、環境依存コードは分けたい
+ ;; 見た目
 (custom-set-variables
  '(column-number-mode t)
  '(current-language-environment "UTF-8")
@@ -20,3 +21,8 @@
 (set-frame-parameter nil 'alpha '95)
 
 (load-theme 'solarized-dark t)
+
+ ;; 行番号とか
+(setq-default indicate-empty-lines t)
+(global-linum-mode 1)
+(setq scroll-step 1)

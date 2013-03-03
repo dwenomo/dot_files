@@ -6,11 +6,6 @@
    ;; .#* を作らない
 (setq auto-save-default nil)
 
- ;; 行番号とか
-(setq-default indicate-empty-lines t)
-(global-linum-mode 1)
-(setq scroll-step 1)
-
  ;; パッケージ
 (require 'package)
 (add-to-list 'package-archives 
