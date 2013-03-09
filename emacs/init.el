@@ -1,3 +1,13 @@
+;; 
+(require 'cl)
+
+;;;日本語設定
+(set-language-environment 'Japanese)
+(prefer-coding-system 'utf-8)
+(setq default-coding-systems 'utf-8)
+(setq file-name-coding-system 'sjis)
+(setq locale-coding-system 'sjis)
+
 (cua-mode 1)
 
  ;; バックアップファイルを作成しない設定
