@@ -17,5 +17,5 @@
 (package-initialize)
 
 (require 'init-loader)
-(init-loader-load "~/.emacs.d/inits")
+(init-loader-load (concat user-emacs-directory "inits"))
 
