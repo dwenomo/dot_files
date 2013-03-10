@@ -12,6 +12,7 @@
 	  emacs-w3m
 	  helm
 	  all-ext
+	  popup
 	  popwin
 	  auto-complete
 	  open-junk-file
