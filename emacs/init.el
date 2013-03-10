@@ -16,6 +16,9 @@
    ;; .#* を作らない
 (setq auto-save-default nil)
 
+;; バッファ自動再読み込み
+(global-auto-revert-mode 1)
+
  ;; パッケージ
 (require 'package)
 (add-to-list 'package-archives 
@@ -28,3 +31,6 @@
 
 (require 'init-loader)
 (init-loader-load (concat user-emacs-directory "inits"))
+
+
+(require 'recentf-ext)

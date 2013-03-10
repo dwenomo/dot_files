@@ -16,4 +16,5 @@
 	  popwin
 	  auto-complete
 	  open-junk-file
+	  recentf-ext
 	  ))
