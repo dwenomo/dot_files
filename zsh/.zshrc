@@ -29,4 +29,6 @@ setopt nolistbeep
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
 
 
-alias emacs='TERM=xterm-256color /usr/bin/emacs'
+alias lv='TERM=cygwin /usr/bin/lv'
+export LC_CTYPE=ja_JP.UTF-8
+export LANG=C
