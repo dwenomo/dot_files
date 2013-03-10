@@ -29,3 +29,4 @@ setopt nolistbeep
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
 
 
+alias emacs='TERM=xterm-256color /usr/bin/emacs'
