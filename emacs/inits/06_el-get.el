@@ -10,4 +10,9 @@
 (el-get 'sync
 	'(el-get
 	  emacs-w3m
+	  helm
+	  all-ext
+	  popwin
+	  auto-complete
+	  open-junk-file
 	  ))
