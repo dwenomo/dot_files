@@ -32,5 +32,3 @@
 (require 'init-loader)
 (init-loader-load (concat user-emacs-directory "inits"))
 
-
-(require 'recentf-ext)
