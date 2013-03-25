@@ -5,8 +5,8 @@
 (set-language-environment 'Japanese)
 (prefer-coding-system 'utf-8)
 (setq default-coding-systems 'utf-8)
-(setq file-name-coding-system 'sjis)
-(setq locale-coding-system 'sjis)
+(setq file-name-coding-system 'utf-8)
+(setq locale-coding-system 'utf-8)
 
 (cua-mode 1)
 
