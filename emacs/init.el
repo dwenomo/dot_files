@@ -1,13 +1,3 @@
-;; 
-(require 'cl)
-
-;;;日本語設定
-(set-language-environment 'Japanese)
-(prefer-coding-system 'utf-8)
-(setq default-coding-systems 'utf-8)
-(setq file-name-coding-system 'utf-8)
-(setq locale-coding-system 'utf-8)
-
 (cua-mode 1)
 
  ;; バックアップファイルを作成しない設定
@@ -15,9 +5,6 @@
 (setq make-backup-files nil)
    ;; .#* を作らない
 (setq auto-save-default nil)
-
-;; バッファ自動再読み込み
-(global-auto-revert-mode 1)
 
  ;; パッケージ
 (require 'package)
@@ -30,5 +17,5 @@
 (package-initialize)
 
 (require 'init-loader)
-(init-loader-load (concat user-emacs-directory "inits"))
+(init-loader-load "~/.emacs.d/inits")
 
